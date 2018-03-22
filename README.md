@@ -54,16 +54,16 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
   
 ##### Funkcionalnosti
 
-*Prijava
-*Registracija
-*Kreiranje kluba
-*Transferi
-*Odigravanje meča
-*Postava taktike
-*Pridruživanje ligi
-*Kreiranje ligefunkcionalnošću
-*Brisanje računa
-*Brisanje kluba
-*Pregled lige
-*Brisanje lige
-*Update baze podataka igrača
+* Prijava
+* Registracija
+* Kreiranje kluba
+* Transferi
+* Odigravanje meča
+* Postava taktike
+* Pridruživanje ligi
+* Kreiranje ligefunkcionalnošću
+* Brisanje računa
+* Brisanje kluba
+* Pregled lige
+* Brisanje lige
+* Update baze podataka igrača
