@@ -53,6 +53,7 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
   Korisnici mogu brisati svoje račune ukoliko ne žele više da se takmiče na virtualnim zelenim terenima. Također admin može obrisati račun ukoliko uoči nepravilnosti ili neki način varanja sa datog računa.
  
 * **Dobavljanje podataka sa eksternog sistema**
+
   Nakon svakog odigranog kola realnog fudbala vršit će se update baze podataka igrača te promjene njihovih sposobnosti u skladu sa njihovom realnom formom da bi se ovoj simulaciji dao dašak realnosti. Ovi podaci će se dobavljati sa eksternog sistema na kojem će se nalaziti sve statistike igrača iz realnog svijeta. 
    
 ## Funkcionalnosti
@@ -64,7 +65,7 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
 * Mogućnost postavljanja taktike
 * Odigravanje meča
 * Pridruživanje ligi
-* Mogućnost Kreiranja vlastite lige
+* Mogućnost kreiranja vlastite lige
 * Mogućnost brisanja lige (od strane admina)
 * Mogućnost pregleda lige u kojoj se klub takmiči
 * Mogućnost brisanja kluba
