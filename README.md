@@ -53,3 +53,17 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
   Nakon svakog odigranog kola realnog fudbala vršit će se update baze podataka igrača te promjene njihovih sposobnosti u skladu sa njihovom realnom formom da bi se ovoj simulaciji dao dašak realnosti
   
 ##### Funkcionalnosti
+
+*Prijava
+*Registracija
+*Kreiranje kluba
+*Transferi
+*Odigravanje meča
+*Postava taktike
+*Pridruživanje ligi
+*Kreiranje ligefunkcionalnošću
+*Brisanje računa
+*Brisanje kluba
+*Pregled lige
+*Brisanje lige
+*Update baze podataka igrača
