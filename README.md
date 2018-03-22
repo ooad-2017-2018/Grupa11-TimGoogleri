@@ -13,43 +13,55 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
 ## Procesi
 
 * **Registracija**
+
   U slučaju da korisnik ne posjeduje postojeći nalog potrebno je da korisnik prvo kreira nalog. Od korisnika se traži da unese željeno         korisničko ime, lozinku, te e-mail adresu. Također prilikom registracije se provjerava da li je korisničko ime koje je korisnik odabrao jedinstveno te ako nije se od korisnika traži da unese neko drugo korisničko ime.
 
 * **Prijava**
+
   Omogućava korisniku prijavu na sistem tražeći korisničko ime i lozinku.
    
 * **Kreiranje kluba**
-  Kada se korisnik prvi put prijavi na sistem ili je iz nekog razloga obrisao svoj postojeći klub, potrebno je da korisnik kreira novi klub.
-  Od korisnika se traži ime kluba koje mora biti jedinstveno.
+
+  Kada se korisnik prvi put prijavi na sistem ili je iz nekog razloga obrisao svoj postojeći klub, potrebno je da korisnik kreira novi klub. Od korisnika se traži ime kluba koje mora biti jedinstveno.
   
 * **Transferi**
+
   Korisniku se omogućava da vrši transfere, odnosno da kupuje/prodaje igrače u skladu sa budžetom svoga kluba. Korisniku je dat određeni budžet za transfere koje on treba pametno utrošiti za najbolje rezultate.
    
 * **Postava taktike**
+
   Korisniku je omogućeno da izabere formaciju u kojoj će njegov tim izaći na teren, igrače koji će činiti tu formaciju, te strategiju kojom će igraći pristupiti meču.
   
 * **Odigravanje meča**
+
   Odigravanje meča je simulacija po algoritmu koji uzima u obzir vještine igrača, da li korisnikova ekipa utakmicu igra kod kuće ili u gostima, te random događajima koji su tu da simulacije ne bi bile dosadne i predvidive.
 
 * **Pridruživanje ligi**
+
   Korisnik može da se pridruži ligi po njegovoj želji. Kada lige imaju potreban broj timova, pridruživanje datoj ligi je onemogućeno i sezona počinje.
   
 * **Kreiranje lige**
+
   Ukoliko se korisniku ne sviđaju postojeće lige ili želi da napravi ligu u kojoj će se takmičiti sa svojim prijateljima to mu je omogućeno ovom funkcionalnošću
    
 * **Brisanje lige**
+
   Ukoliko ima previše liga sa nedovoljnim brojem igrača adminu je omogućeno da obriše lige sa malim brojem igrača da bi se motiviralo igrače da se priključe ligama sa većim brojem klubova.
    
 * **Pregled lige**
+
   Korisnici imaju uvid u poredak timova na ljestvici, poredak najboljih strijelaca, forme svoje ili suparničkih ekipa u prethodnim utakmicama.
 
 * **Brisanje kluba**
+
   Brisanje kluba je uključeno u brisanje računa, ali također ako korisnik iz nekoga razloga želi da obriše svoj klub i počne iznova to mu je omogućeno. Brisanje kluba je onemogućeno za vrijeme trajanja sezone.
 
 * **Update baze podataka**
+
   Update baze će se vršiti redovno nakon svake registracije, promjene podataka, promjene forme igrača i odigranih utakmica.
  
 * **Brisanje računa**
+
   Korisnici mogu brisati svoje račune ukoliko ne žele više da se takmiče na virtualnim zelenim terenima. Također admin može obrisati račun ukoliko uoči nepravilnosti ili neki način varanja sa datog računa.
  
 * **Dobavljanje podataka sa eksternog sistema**
