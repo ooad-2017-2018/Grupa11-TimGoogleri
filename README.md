@@ -35,6 +35,14 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
 * **Odigravanje meča**
 
   Odigravanje meča je simulacija po algoritmu koji uzima u obzir vještine igrača, da li korisnikova ekipa utakmicu igra kod kuće ili u gostima, te random događajima koji su tu da simulacije ne bi bile dosadne i predvidive.
+  
+* **Pregled rezultata meča**  
+
+  Nakon svakog odigranog meča korisniku se nudi mogućnost pregleda rezultata i statistika.
+  
+* **Objava rezultata**
+
+  Korisniku se nudi mogućnost objave rezultata nakon svake utakmice na društvenim mrežama.
 
 * **Pridruživanje ligi**
 
@@ -64,6 +72,10 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
 
   Korisnici mogu brisati svoje račune ukoliko ne žele više da se takmiče na virtualnim zelenim terenima. Također admin može obrisati račun ukoliko uoči nepravilnosti ili neki način varanja sa datog računa.
  
+* **Odigravanje meča**
+
+  Korisniku se nudi mogućnost kontaktiranja administracije u slučaju pitanja, prijave neregularnosti i varanja, prijave grešaka u aplikaciji i sličnih stvari.
+  
 * **Dobavljanje podataka sa eksternog sistema**
 
   Nakon svakog odigranog kola realnog fudbala vršit će se update baze podataka igrača te promjene njihovih sposobnosti u skladu sa njihovom realnom formom da bi se ovoj simulaciji dao dašak realnosti. Ovi podaci će se dobavljati sa eksternog sistema na kojem će se nalaziti sve statistike igrača iz realnog svijeta. 
@@ -73,16 +85,19 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
 * Mogućnost registracije novih korisnika
 * Postojeći korisnici imaju svoj račun
 * Mogućnost kreiranja vlastitog kluba
+* Pridruživanje ligi
+* Mogućnost kreiranja vlastite lige
 * Mogućnost transfera igrača
 * Mogućnost postavljanja taktike
 * Odigravanje meča
-* Pridruživanje ligi
-* Mogućnost kreiranja vlastite lige
-* Mogućnost brisanja lige (od strane admina)
+* Pregled rezultata i statistika nakon odigranog meča
+* Mogućnost podjele rezultata na društvenim mrežama
 * Mogućnost pregleda lige u kojoj se klub takmiči
 * Mogućnost brisanja kluba
-* Update baze podataka igrača
+* Mogućnost brisanja lige (od strane admina)
 * Brisanje korisničkog računa
+* Mogućnost kontaktiranja administracije
+* Update baze podataka igrača
 * Dobavljanje statistika igrača iz realnog svijeta
 
 ## Akteri
