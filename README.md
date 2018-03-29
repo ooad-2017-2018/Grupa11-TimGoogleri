@@ -72,7 +72,7 @@ Ova aplikacija pomoći će svima koji imaju san da postanu menadžeri fudbalskog
 
   Korisnici mogu brisati svoje račune ukoliko ne žele više da se takmiče na virtualnim zelenim terenima. Također admin može obrisati račun ukoliko uoči nepravilnosti ili neki način varanja sa datog računa.
  
-* **Odigravanje meča**
+* **Kontaktiranje administracije**
 
   Korisniku se nudi mogućnost kontaktiranja administracije u slučaju pitanja, prijave neregularnosti i varanja, prijave grešaka u aplikaciji i sličnih stvari.
   
