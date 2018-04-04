@@ -8,15 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Name="BackgroundGrid" Margin="-15,15,15,-15" Background="#FF161619">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="0*"/>
-        </Grid.ColumnDefinitions>
-
-
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
+
                 <VisualState x:Name="VisualStatePhone">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"/>
@@ -28,6 +23,7 @@
                         <Setter Target="PostaniManager.VerticalAlignment" Value="Center" />
                     </VisualState.Setters>
                 </VisualState>
+
                 <VisualState x:Name="VisualStateTablet">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="600" />
@@ -35,6 +31,7 @@
                     <VisualState.Setters>
                     </VisualState.Setters>
                 </VisualState>
+
                 <VisualState x:Name="VisualStateDesktop">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="800" />
@@ -42,21 +39,20 @@
                     <VisualState.Setters>
                     </VisualState.Setters>
                 </VisualState>
+
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
-        <ScrollViewer>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
 
-            <Grid>
-
-
+            <Grid Margin="-15,15,15,-15">
 
                 <StackPanel Name="ETFManagerPanel" Margin="10, 20, 0, 0">
                     <TextBlock Name="ETFManager" HorizontalAlignment="Left" Margin="36,1,0,-97" Text="ETF MANAGER" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="72" Width="540" Foreground="White"/>
                     <TextBlock Name="PostaniManager" HorizontalAlignment="Left" Margin="41,84,0,-127" Text="Postani manager, ostvari svoj san." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32" Height="43" Width="535" FontStretch="Normal" CharacterSpacing="30" Foreground="White"/>
                 </StackPanel>
 
-                <StackPanel Name="LoginPanel" Margin="50, 50, 0, 0">
+                <StackPanel Name="LoginPanel" Margin="50, 40, 0, 0">
                     <TextBlock Name="LOGIN" HorizontalAlignment="Left" Margin="150,171,0,-219" Text="LOG IN" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36" Foreground="White"/>
                     <TextBlock x:Name="Username" HorizontalAlignment="Left" Margin="100,250,0,-267" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="24"/>
                     <TextBox Name="UsernameUnos" HorizontalAlignment="Left" Margin="175,240,0,-275" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
@@ -65,7 +61,7 @@
                     <Button Name="LogIn" Content="Log in" HorizontalAlignment="Left" Margin="102,340,0,-368" VerticalAlignment="Top" Foreground="White" Background="OrangeRed" Width="215"/>
                 </StackPanel>
 
-                <StackPanel Name="RegistracijaPanel" Margin="50, 70, 0, 0">
+                <StackPanel Name="RegistracijaPanel" Margin="50, 50, 0, 0">
                     <TextBlock Name="Email" HorizontalAlignment="Left" Margin="100,460,0,-480" Text="E-mail:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
                     <TextBox Name="EmailUnos" HorizontalAlignment="Left" Margin="175,456,0,-488" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
                     <TextBlock Name="UsernameRegistracija" HorizontalAlignment="Left" Margin="100,508,0,-528" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
@@ -73,8 +69,7 @@
                     <TextBlock Name="NemateRacun" HorizontalAlignment="Left" Margin="114,419,0,-439" Text="Nemate račun? Registrujte se." TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
                     <TextBlock Name="PasswordRegistrcija" HorizontalAlignment="Left" Margin="100,556,0,-576" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
                     <TextBox Name="PasswordRegistrcijaUnos" HorizontalAlignment="Left" Margin="175,552,0,-584" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-                    <CheckBox Margin="266,600,0,-632" RequestedTheme="Default" BorderBrush="White" Background="#00D60A0A" Width="54" Foreground="White"/>
-                    <Button Name="Register" Content="Register" HorizontalAlignment="Left" Margin="100, 650, 0, -632" VerticalAlignment="Top" Width="220" Foreground="White" Background="OrangeRed"/>
+                    <Button Name="Register" Content="Register" HorizontalAlignment="Left" Margin="100, 600, 0, -632" VerticalAlignment="Top" Width="220" Foreground="White" Background="OrangeRed"/>
                 </StackPanel>
 
             </Grid>
