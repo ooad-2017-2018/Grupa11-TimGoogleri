@@ -25575,11 +25575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\ProjekatETFManager\\ProjekatETFManager\\ProjekatETFManager.csproj",
+      "projectUniqueName": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\ProjekatETFManager.csproj",
       "projectName": "ProjekatETFManager",
-      "projectPath": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\ProjekatETFManager\\ProjekatETFManager\\ProjekatETFManager.csproj",
+      "projectPath": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\ProjekatETFManager.csproj",
       "packagesPath": "C:\\Users\\nedim\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\ProjekatETFManager\\ProjekatETFManager\\obj\\",
+      "outputPath": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -7,12 +7,102 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Log in" HorizontalAlignment="Left" Margin="100,447,0,0" VerticalAlignment="Top" Width="220"/>
-        <TextBlock HorizontalAlignment="Left" Margin="100,349,0,0" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="175,345,0,0" Text="" VerticalAlignment="Top" Width="145"/>
-        <TextBlock HorizontalAlignment="Left" Margin="100,399,0,0" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="175,395,0,0" Text="" VerticalAlignment="Top" Width="145"/>
+    <Grid Name="BackgroundGrid" Margin="-15,15,15,-15" >
+
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/splash.jpg"></ImageBrush>
+        </Grid.Background>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="VisualStatePhone">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="VisualStateTablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="VisualStateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        
+        
+        <ScrollViewer >
+
+            <Grid Name="Okvir" Width="650" Margin="0, 50, 0, 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="DimGray">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackPanel>
+                <TextBlock Name="Username" HorizontalAlignment="Left" Margin="100,247,0,-267" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+
+                <TextBox Name="UsernameUnos" HorizontalAlignment="Left" Margin="175,243,0,-275" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+
+                <Button Name="LogIn" Content="Log in" HorizontalAlignment="Left" Margin="102,336,0,-368" VerticalAlignment="Top" Width="215" Foreground="White" Background="OrangeRed"/>
+
+                <Button Name="Register" Content="Register" HorizontalAlignment="Left" Margin="100,600,0,-632" VerticalAlignment="Top" Width="220" Foreground="White" Background="OrangeRed"/>
+
+                <TextBlock Name="Email" HorizontalAlignment="Left" Margin="100,460,0,-480" Text="E-mail:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+
+                <TextBox Name="EmailUnos" HorizontalAlignment="Left" Margin="175,456,0,-488" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+
+                <TextBlock Name="Username2" HorizontalAlignment="Left" Margin="100,508,0,-528" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+
+                <TextBox Name="Username2Unos" HorizontalAlignment="Left" Margin="175,504,0,-536" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+
+                <TextBlock Name="NemateRacun" HorizontalAlignment="Left" Margin="114,419,0,-439" Text="Nemate račun? Registrujte se." TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+
+                <TextBlock Name="Password2" HorizontalAlignment="Left" Margin="100,556,0,-576" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+
+                <TextBox Name="Password2Unos" HorizontalAlignment="Left" Margin="175,552,0,-584" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+
+                <TextBlock Name="LOGIN" HorizontalAlignment="Left" Margin="150,171,0,-219" Text="LOG IN" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36" Foreground="White"/>
+
+                <TextBlock
+                    Name="ETFManager"
+                    HorizontalAlignment="Left" 
+                    Margin="36,1,0,-97" 
+                    Text="ETF MANAGER"
+                    TextWrapping="Wrap"
+                    VerticalAlignment="Top" 
+                    FontFamily="Segoe UI"
+                    FontWeight="Bold" FontSize="72"
+                    Width="540"
+                    Foreground="White"/>
+
+                <TextBlock 
+                    Name="PostaniManager"
+                    HorizontalAlignment="Left"
+                    Margin="41,84,0,-127"
+                    Text="Postani manager, ostvari svoj san."
+                    TextWrapping="Wrap"
+                    VerticalAlignment="Top"
+                    FontSize="32" Height="43"
+                    Width="535"
+                    FontStretch="Normal"
+                    CharacterSpacing="30"
+                    Foreground="White"/>
+
+                <TextBlock x:Name="Passoword" HorizontalAlignment="Left" Margin="100,293,0,-313" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+                <TextBox x:Name="PasswordUnos" HorizontalAlignment="Left" Margin="175,289,0,-321" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
 
     </Grid>
 </Page>
