@@ -7,11 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:ConnectionId='1' Name="BackgroundGrid" Margin="-15,15,15,-15" >
+    <Grid x:ConnectionId='1' Name="BackgroundGrid" Margin="-15,15,15,-15" Background="#FF161619">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
 
-        <Grid.Background>
-            <ImageBrush ImageSource="Assets/splash.jpg"></ImageBrush>
-        </Grid.Background>
+
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:ConnectionId='2' x:Name="VisualStateGroup">
@@ -20,6 +22,10 @@
                         <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <Setter Target="ETFManager.FontSize" Value="42" />
+                        <Setter Target="ETFManager.VerticalAlignment" Value="Center" />
+                        <Setter Target="PostaniManager.FontSize" Value="18" />
+                        <Setter Target="PostaniManager.VerticalAlignment" Value="Center" />
                     </VisualState.Setters>
                 </VisualState>
                 <VisualState x:ConnectionId='4' x:Name="VisualStateTablet">
@@ -38,72 +44,42 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        
-        
-        <ScrollViewer >
 
-            <Grid x:ConnectionId='6' Name="Okvir" Width="650" Margin="0, 50, 0, 0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="DimGray">
+        <ScrollViewer>
 
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
+            <Grid>
 
-                <StackPanel>
-                <TextBlock x:ConnectionId='7' Name="Username" HorizontalAlignment="Left" Margin="100,247,0,-267" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
 
-                <TextBox x:ConnectionId='8' Name="UsernameUnos" HorizontalAlignment="Left" Margin="175,243,0,-275" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
 
-                <Button x:ConnectionId='9' Name="LogIn" Content="Log in" HorizontalAlignment="Left" Margin="102,336,0,-368" VerticalAlignment="Top" Width="215" Foreground="White" Background="OrangeRed"/>
-
-                <Button x:ConnectionId='10' Name="Register" Content="Register" HorizontalAlignment="Left" Margin="100,600,0,-632" VerticalAlignment="Top" Width="220" Foreground="White" Background="OrangeRed"/>
-
-                <TextBlock x:ConnectionId='11' Name="Email" HorizontalAlignment="Left" Margin="100,460,0,-480" Text="E-mail:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-
-                <TextBox x:ConnectionId='12' Name="EmailUnos" HorizontalAlignment="Left" Margin="175,456,0,-488" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-
-                <TextBlock x:ConnectionId='13' Name="Username2" HorizontalAlignment="Left" Margin="100,508,0,-528" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-
-                <TextBox x:ConnectionId='14' Name="Username2Unos" HorizontalAlignment="Left" Margin="175,504,0,-536" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-
-                <TextBlock x:ConnectionId='15' Name="NemateRacun" HorizontalAlignment="Left" Margin="114,419,0,-439" Text="Nemate račun? Registrujte se." TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-
-                <TextBlock x:ConnectionId='16' Name="Password2" HorizontalAlignment="Left" Margin="100,556,0,-576" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-
-                <TextBox x:ConnectionId='17' Name="Password2Unos" HorizontalAlignment="Left" Margin="175,552,0,-584" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-
-                <TextBlock x:ConnectionId='18' Name="LOGIN" HorizontalAlignment="Left" Margin="150,171,0,-219" Text="LOG IN" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36" Foreground="White"/>
-
-                <TextBlock x:ConnectionId='19'
-                    Name="ETFManager"
-                    HorizontalAlignment="Left" 
-                    Margin="36,1,0,-97" 
-                    Text="ETF MANAGER"
-                    TextWrapping="Wrap"
-                    VerticalAlignment="Top" 
-                    FontFamily="Segoe UI"
-                    FontWeight="Bold" FontSize="72"
-                    Width="540"
-                    Foreground="White"/>
-
-                <TextBlock x:ConnectionId='20' 
-                    Name="PostaniManager"
-                    HorizontalAlignment="Left"
-                    Margin="41,84,0,-127"
-                    Text="Postani manager, ostvari svoj san."
-                    TextWrapping="Wrap"
-                    VerticalAlignment="Top"
-                    FontSize="32" Height="43"
-                    Width="535"
-                    FontStretch="Normal"
-                    CharacterSpacing="30"
-                    Foreground="White"/>
-
-                <TextBlock x:ConnectionId='21' x:Name="Passoword" HorizontalAlignment="Left" Margin="100,293,0,-313" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-                <TextBox x:ConnectionId='22' x:Name="PasswordUnos" HorizontalAlignment="Left" Margin="175,289,0,-321" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+                <StackPanel x:ConnectionId='6' Name="ETFManagerPanel" Margin="10, 20, 0, 0">
+                    <TextBlock x:ConnectionId='23' Name="ETFManager" HorizontalAlignment="Left" Margin="36,1,0,-97" Text="ETF MANAGER" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="72" Width="540" Foreground="White"/>
+                    <TextBlock x:ConnectionId='24' Name="PostaniManager" HorizontalAlignment="Left" Margin="41,84,0,-127" Text="Postani manager, ostvari svoj san." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32" Height="43" Width="535" FontStretch="Normal" CharacterSpacing="30" Foreground="White"/>
                 </StackPanel>
-            </Grid>
-        </ScrollViewer>
 
+                <StackPanel x:ConnectionId='7' Name="LoginPanel" Margin="50, 50, 0, 0">
+                    <TextBlock x:ConnectionId='17' Name="LOGIN" HorizontalAlignment="Left" Margin="150,171,0,-219" Text="LOG IN" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36" Foreground="White"/>
+                    <TextBlock x:ConnectionId='18' x:Name="Username" HorizontalAlignment="Left" Margin="100,250,0,-267" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="24"/>
+                    <TextBox x:ConnectionId='19' Name="UsernameUnos" HorizontalAlignment="Left" Margin="175,240,0,-275" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+                    <TextBlock x:ConnectionId='20' x:Name="Password" HorizontalAlignment="Left" Margin="100,293,0,-313" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+                    <TextBox x:ConnectionId='21' x:Name="PasswordUnos" HorizontalAlignment="Left" Margin="175,290,0,-321" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+                    <Button x:ConnectionId='22' Name="LogIn" Content="Log in" HorizontalAlignment="Left" Margin="102,340,0,-368" VerticalAlignment="Top" Foreground="White" Background="OrangeRed" Width="215"/>
+                </StackPanel>
+
+                <StackPanel x:ConnectionId='8' Name="RegistracijaPanel" Margin="50, 70, 0, 0">
+                    <TextBlock x:ConnectionId='9' Name="Email" HorizontalAlignment="Left" Margin="100,460,0,-480" Text="E-mail:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+                    <TextBox x:ConnectionId='10' Name="EmailUnos" HorizontalAlignment="Left" Margin="175,456,0,-488" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+                    <TextBlock x:ConnectionId='11' Name="UsernameRegistracija" HorizontalAlignment="Left" Margin="100,508,0,-528" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+                    <TextBox x:ConnectionId='12' Name="UsernameRegistracijaUnos" HorizontalAlignment="Left" Margin="175,504,0,-536" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+                    <TextBlock x:ConnectionId='13' Name="NemateRacun" HorizontalAlignment="Left" Margin="114,419,0,-439" Text="Nemate račun? Registrujte se." TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+                    <TextBlock x:ConnectionId='14' Name="PasswordRegistrcija" HorizontalAlignment="Left" Margin="100,556,0,-576" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+                    <TextBox x:ConnectionId='15' Name="PasswordRegistrcijaUnos" HorizontalAlignment="Left" Margin="175,552,0,-584" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+                    <CheckBox Margin="266,600,0,-632" RequestedTheme="Default" BorderBrush="White" Background="#00D60A0A" Width="54" Foreground="White"/>
+                    <Button x:ConnectionId='16' Name="Register" Content="Register" HorizontalAlignment="Left" Margin="100, 650, 0, -632" VerticalAlignment="Top" Width="220" Foreground="White" Background="OrangeRed"/>
+                </StackPanel>
+
+            </Grid>
+
+        </ScrollViewer>
     </Grid>
 </Page>
 
