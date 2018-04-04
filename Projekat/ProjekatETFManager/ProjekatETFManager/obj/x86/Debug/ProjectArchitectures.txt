@@ -1,1 +1,1 @@
-D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\ProjekatETFManager.csproj;x86
+C:\Users\mustafa\Desktop\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\ProjekatETFManager.csproj;x86

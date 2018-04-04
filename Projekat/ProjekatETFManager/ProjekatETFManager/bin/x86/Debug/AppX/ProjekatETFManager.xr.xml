@@ -86,5 +86,7 @@
       <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="ProjekatETFManager.MainPage" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="ProjekatETFManager.MainPage1" />
   </Roots.RootTypes>
 </Roots>
