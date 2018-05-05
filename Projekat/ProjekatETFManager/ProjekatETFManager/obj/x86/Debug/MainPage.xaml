@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:ConnectionId='1' Name="BackgroundGrid" Margin="-15,15,15,-15" Background="#FF161619">
+    <Grid x:ConnectionId='1' Name="BackgroundGrid" Margin="-15,15,15,-15" Background="#FF161619" MinWidth="600">
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:ConnectionId='2' x:Name="VisualStateGroup">
@@ -18,9 +18,12 @@
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="ETFManager.FontSize" Value="42" />
-                        <Setter Target="ETFManager.VerticalAlignment" Value="Center" />
                         <Setter Target="PostaniManager.FontSize" Value="18" />
-                        <Setter Target="PostaniManager.VerticalAlignment" Value="Center" />
+                        <Setter Target="PostaniManager.Margin" Value="36, 50, 0, 0" />
+                        <Setter Target="LOGIN.FontSize" Value="18" />
+                        <Setter Target="LOGIN.Margin" Value="36, 190, 0, 0" />
+                        <Setter Target="LoginPanel.Margin" Value="0, 0, 0, 0" />
+                        <Setter Target="RegistracijaPanel.Margin" Value="0, 10, 0, 0" />
                     </VisualState.Setters>
                 </VisualState>
 
@@ -75,6 +78,7 @@
             </Grid>
 
         </ScrollViewer>
+        
     </Grid>
 </Page>
 

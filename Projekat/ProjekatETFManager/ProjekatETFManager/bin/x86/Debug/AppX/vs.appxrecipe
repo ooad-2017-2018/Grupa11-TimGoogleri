@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-04T23:09:11.199</Modified>
+      <Modified>2018-04-04T23:51:40.220</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\ProjekatETFManager.exe">
       <PackagePath>entrypoint\ProjekatETFManager.exe</PackagePath>
-      <Modified>2018-04-04T23:09:07.213</Modified>
+      <Modified>2018-04-04T23:51:38.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nedim\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -543,7 +543,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\ProjekatETFManager.xr.xml">
       <PackagePath>ProjekatETFManager.xr.xml</PackagePath>
-      <Modified>2018-04-04T23:09:06.752</Modified>
+      <Modified>2018-04-04T23:48:44.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -552,11 +552,11 @@
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-04T23:09:10.713</Modified>
+      <Modified>2018-04-04T23:51:39.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\Core\ProjekatETFManager.exe">
       <PackagePath>ProjekatETFManager.exe</PackagePath>
-      <Modified>2018-04-04T23:09:11.191</Modified>
+      <Modified>2018-04-04T23:51:40.214</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
