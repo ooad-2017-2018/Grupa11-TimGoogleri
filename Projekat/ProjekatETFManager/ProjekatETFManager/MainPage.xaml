@@ -7,77 +7,50 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Name="BackgroundGrid" Margin="-15,15,15,-15" Background="#FF161619" MinWidth="600">
+    <Grid Name="BackgroundGrid" MinWidth="600">
 
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="VisualStateGroup">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/splash.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
 
-                <VisualState x:Name="VisualStatePhone">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="0"/>
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                        <Setter Target="ETFManager.FontSize" Value="42" />
-                        <Setter Target="PostaniManager.FontSize" Value="18" />
-                        <Setter Target="PostaniManager.Margin" Value="36, 50, 0, 0" />
-                        <Setter Target="LOGIN.FontSize" Value="18" />
-                        <Setter Target="LOGIN.Margin" Value="36, 190, 0, 0" />
-                        <Setter Target="LoginPanel.Margin" Value="0, 0, 0, 0" />
-                        <Setter Target="RegistracijaPanel.Margin" Value="0, 10, 0, 0" />
-                    </VisualState.Setters>
-                </VisualState>
-
-                <VisualState x:Name="VisualStateTablet">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="600" />
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                    </VisualState.Setters>
-                </VisualState>
-
-                <VisualState x:Name="VisualStateDesktop">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="800" />
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                    </VisualState.Setters>
-                </VisualState>
-
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
-
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-
-            <Grid Margin="-15,15,15,-15">
-
-                <StackPanel Name="ETFManagerPanel" Margin="10, 20, 0, 0">
-                    <TextBlock Name="ETFManager" HorizontalAlignment="Left" Margin="36,1,0,-97" Text="ETF MANAGER" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="72" Width="540" Foreground="White"/>
-                    <TextBlock Name="PostaniManager" HorizontalAlignment="Left" Margin="41,84,0,-127" Text="Postani manager, ostvari svoj san." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32" Height="43" Width="535" FontStretch="Normal" CharacterSpacing="30" Foreground="White"/>
-                </StackPanel>
-
-                <StackPanel Name="LoginPanel" Margin="50, 40, 0, 0">
-                    <TextBlock Name="LOGIN" HorizontalAlignment="Left" Margin="150,171,0,-219" Text="LOG IN" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36" Foreground="White"/>
-                    <TextBlock x:Name="Username" HorizontalAlignment="Left" Margin="100,250,0,-267" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="24"/>
-                    <TextBox Name="UsernameUnos" HorizontalAlignment="Left" Margin="175,240,0,-275" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-                    <TextBlock x:Name="Password" HorizontalAlignment="Left" Margin="100,293,0,-313" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-                    <TextBox x:Name="PasswordUnos" HorizontalAlignment="Left" Margin="175,290,0,-321" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-                    <Button Name="LogIn" Content="Log in" HorizontalAlignment="Left" Margin="102,340,0,-368" VerticalAlignment="Top" Foreground="White" Background="OrangeRed" Width="215"/>
-                </StackPanel>
-
-                <StackPanel Name="RegistracijaPanel" Margin="50, 50, 0, 0">
-                    <TextBlock Name="Email" HorizontalAlignment="Left" Margin="100,460,0,-480" Text="E-mail:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-                    <TextBox Name="EmailUnos" HorizontalAlignment="Left" Margin="175,456,0,-488" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-                    <TextBlock Name="UsernameRegistracija" HorizontalAlignment="Left" Margin="100,508,0,-528" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-                    <TextBox Name="UsernameRegistracijaUnos" HorizontalAlignment="Left" Margin="175,504,0,-536" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-                    <TextBlock Name="NemateRacun" HorizontalAlignment="Left" Margin="114,419,0,-439" Text="Nemate račun? Registrujte se." TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-                    <TextBlock Name="PasswordRegistrcija" HorizontalAlignment="Left" Margin="100,556,0,-576" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-                    <TextBox Name="PasswordRegistrcijaUnos" HorizontalAlignment="Left" Margin="175,552,0,-584" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
-                    <Button Name="Register" Content="Register" HorizontalAlignment="Left" Margin="100, 600, 0, -632" VerticalAlignment="Top" Width="220" Foreground="White" Background="OrangeRed"/>
-                </StackPanel>
-
-            </Grid>
-
-        </ScrollViewer>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
         
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Name="ETFManagerPanel" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="/Assets/logo.png" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Name="LoginPanel" HorizontalAlignment="Center" >
+            <TextBlock Name="LOGIN" HorizontalAlignment="Left"  Text="LOG IN" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36" Foreground="White"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock x:Name="Username" HorizontalAlignment="Left" Text="Username:" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Center"/>
+                <TextBox Name="UsernameUnos" HorizontalAlignment="Right" Width="145" Background="White"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock x:Name="Password" HorizontalAlignment="Left" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="White"/>
+                <TextBox x:Name="PasswordUnos" HorizontalAlignment="Right" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+            </StackPanel>
+            <Button Name="LogIn" Content="Log in" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Background="OrangeRed" Width="215"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Name="RegistracijaPanel" Margin="50, 50, 0, 0">
+            <TextBlock Name="Email" HorizontalAlignment="Left" Margin="100,460,0,-480" Text="E-mail:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+            <TextBox Name="EmailUnos" HorizontalAlignment="Left" Margin="175,456,0,-488" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+            <TextBlock Name="UsernameRegistracija" HorizontalAlignment="Left" Margin="100,508,0,-528" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+            <TextBox Name="UsernameRegistracijaUnos" HorizontalAlignment="Left" Margin="175,504,0,-536" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+            <TextBlock Name="NemateRacun" HorizontalAlignment="Left" Margin="114,419,0,-439" Text="Nemate račun? Registrujte se." TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+            <TextBlock Name="PasswordRegistrcija" HorizontalAlignment="Left" Margin="100,556,0,-576" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+            <TextBox Name="PasswordRegistrcijaUnos" HorizontalAlignment="Left" Margin="175,552,0,-584" Text="" VerticalAlignment="Top" Width="145" Background="White"/>
+            <Button Name="Register" Content="Register" HorizontalAlignment="Left" Margin="100, 600, 0, -632" VerticalAlignment="Top" Width="220" Foreground="White" Background="OrangeRed"/>
+        </StackPanel>
+
     </Grid>
 </Page>
