@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-04T23:51:40.220</Modified>
+      <Modified>2018-05-06T18:57:47.732</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\ProjekatETFManager.exe">
       <PackagePath>entrypoint\ProjekatETFManager.exe</PackagePath>
-      <Modified>2018-04-04T23:51:38.493</Modified>
+      <Modified>2018-05-06T18:57:45.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nedim\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -503,9 +503,9 @@
       <PackagePath>Assets\splash.jpg</PackagePath>
       <Modified>2018-03-28T15:24:18.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-03-21T21:19:35.994</Modified>
+    <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
+      <Modified>2018-05-06T09:26:25.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -541,9 +541,13 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-02-24T17:14:33.697</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-03-21T21:19:35.994</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\ProjekatETFManager.xr.xml">
       <PackagePath>ProjekatETFManager.xr.xml</PackagePath>
-      <Modified>2018-04-04T23:48:44.452</Modified>
+      <Modified>2018-05-06T18:57:44.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -552,11 +556,11 @@
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-04T23:51:39.548</Modified>
+      <Modified>2018-05-06T18:57:46.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\Core\ProjekatETFManager.exe">
       <PackagePath>ProjekatETFManager.exe</PackagePath>
-      <Modified>2018-04-04T23:51:40.214</Modified>
+      <Modified>2018-05-06T18:57:47.706</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

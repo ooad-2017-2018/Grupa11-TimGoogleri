@@ -376,8 +376,8 @@
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Assets\splash.jpg">
       <PackagePath>Assets\splash.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -405,6 +405,9 @@
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\ProjekatETFManager.xr.xml">
       <PackagePath>ProjekatETFManager.xr.xml</PackagePath>
