@@ -1,3 +1,8 @@
-adminPanel.xbf
 App.xbf
 MainPage.xbf
+User Controls\Email.xbf
+User Controls\LoginButton.xbf
+User Controls\Password.xbf
+User Controls\RegistracijaButton.xbf
+User Controls\Username.xbf
+Views\adminPanel.xbf

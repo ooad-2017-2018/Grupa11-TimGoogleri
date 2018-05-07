@@ -18,6 +18,8 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
       <RootMethod Name="GetRow" />
@@ -45,7 +47,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
-      <RootProperty Name="Orientation" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Name" />
@@ -57,25 +58,48 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="ProjekatETFManager.User_Controls.Email">
+      <RootProperty Name="Name" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="ProjekatETFManager.User_Controls.Username">
+      <RootProperty Name="Name" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="ProjekatETFManager.User_Controls.Password">
+      <RootProperty Name="Name" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="ProjekatETFManager.User_Controls.RegistracijaButton">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Name" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="ProjekatETFManager.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Name" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Background" />
     </RootType>
-    <RootType FullName="ProjekatETFManager.MainPage" />
+    <RootType FullName="ProjekatETFManager.User_Controls.LoginButton" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="ProjekatETFManager.MainPage1" />
   </Roots.RootTypes>

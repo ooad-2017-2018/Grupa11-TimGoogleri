@@ -428,9 +428,34 @@ C:\Users\mustafa\Desktop\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\Projeka
 C:\Users\mustafa\Desktop\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\adminPanel.g.cs
 C:\Users\mustafa\Desktop\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\adminPanel.xaml
 C:\Users\mustafa\Desktop\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\adminPanel.xbf
-D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\adminPanel.xbf
-D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\adminPanel.g.i.cs
-D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\adminPanel.g.cs
-D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\adminPanel.xaml
-D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\adminPanel.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Username.xaml
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\Views\adminPanel.xaml
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Username.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\Views\adminPanel.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\Views\adminPanel.g.i.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\Views\adminPanel.g.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Username.g.i.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Username.g.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\User Controls\Username.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\Views\adminPanel.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\User Controls\Password.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Password.g.i.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Password.g.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Password.xaml
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Password.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\User Controls\Email.xbf
 D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\ProjekatETFManager.csprojResolveAssemblyReference.cache
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Email.g.i.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Email.g.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Email.xaml
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\Email.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\User Controls\LoginButton.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\LoginButton.g.i.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\LoginButton.g.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\LoginButton.xaml
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\LoginButton.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\RegistracijaButton.g.i.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\RegistracijaButton.g.cs
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\RegistracijaButton.xaml
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\obj\x86\Debug\User Controls\RegistracijaButton.xbf
+D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\User Controls\RegistracijaButton.xbf
