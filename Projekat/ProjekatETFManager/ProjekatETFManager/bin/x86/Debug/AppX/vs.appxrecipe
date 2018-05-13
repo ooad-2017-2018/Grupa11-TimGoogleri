@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>6AB463BF288015C57A6193F4EF875226DF9C0C1DF2BC2F7A1095E01B4AF7B2E4</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E794F4203FF0D31D3368CB08E922B04D66FCD81B3E112CC888259CB9728AA09F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>43c7582d-8aae-4ec2-b64f-8a5494095318_1.0.0.0_x86__r9sgpk65fm5e8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>43c7582d-8aae-4ec2-b64f-8a5494095318_r9sgpk65fm5e8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>43c7582d-8aae-4ec2-b64f-8a5494095318</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-07T17:12:50.286</Modified>
+      <Modified>2018-05-13T20:31:22.735</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\ProjekatETFManager.exe">
       <PackagePath>entrypoint\ProjekatETFManager.exe</PackagePath>
-      <Modified>2018-05-07T17:12:48.303</Modified>
+      <Modified>2018-05-13T20:31:13.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nedim\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -547,7 +547,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\ProjekatETFManager.xr.xml">
       <PackagePath>ProjekatETFManager.xr.xml</PackagePath>
-      <Modified>2018-05-07T17:12:47.889</Modified>
+      <Modified>2018-05-13T20:31:12.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -556,11 +556,11 @@
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-07T17:12:49.334</Modified>
+      <Modified>2018-05-13T20:31:20.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\nedim\Google Drive\ETF\IV semestar\Objektno orijentisana analiza i dizajn\Projekat\Grupa11-TimGoogleri\Projekat\ProjekatETFManager\ProjekatETFManager\bin\x86\Debug\Core\ProjekatETFManager.exe">
       <PackagePath>ProjekatETFManager.exe</PackagePath>
-      <Modified>2018-05-07T17:12:50.281</Modified>
+      <Modified>2018-05-13T20:31:22.720</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

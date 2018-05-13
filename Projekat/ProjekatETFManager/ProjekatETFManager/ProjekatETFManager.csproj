@@ -98,6 +98,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Korisnik.cs" />
+    <Compile Include="Models\Osoba.cs" />
+    <Compile Include="Models\System.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User Controls\Email.xaml.cs">
       <DependentUpon>Email.xaml</DependentUpon>
@@ -114,6 +117,7 @@
     <Compile Include="User Controls\Username.xaml.cs">
       <DependentUpon>Username.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View Models\SystemViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
