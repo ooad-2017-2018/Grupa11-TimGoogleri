@@ -6,13 +6,32 @@ using System.Threading.Tasks;
 
 namespace ProjekatETFManager.Models
 {
-    class Osoba
+    abstract class Osoba
     {
-        private String username { get; set; }
-        private String password { get; set; }
+        private string username;
+        private string password;
 
-        public bool passwordCheck(String pw) {
-            return true;
+        public global::System.String Username { get => username; set => username = value; }
+        public global::System.String Password { get => password; set => password = CalculateMD5Hash(value); }
+        
+
+        private string CalculateMD5Hash(string input)
+        {
+
+            MD5 md5 = System.Security.Cryptography.MD5.Create();
+            byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
+            byte[] hash = md5.ComputeHash(inputBytes);
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < hash.Length; i++)
+                sb.Append(hash[i].ToString("X2"));
+            
+
+            return sb.ToString();
+
+        }
+        
+        public bool PasswordCheck(string pw) {
+            return CalculateMD5Hash(pw) == this.password;
         }
 
     }
