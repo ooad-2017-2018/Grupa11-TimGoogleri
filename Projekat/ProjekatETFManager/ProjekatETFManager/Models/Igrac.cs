@@ -19,6 +19,7 @@ namespace ProjekatETFManager.Models
         private int passing;
         private int scoring;
         private int setPieces;
+        private int cost;
         public int Goalkeeping
         {
             get
@@ -103,5 +104,7 @@ namespace ProjekatETFManager.Models
                 this.setPieces = value;
             }
         }
+
+        public int Cost { get => cost; set => cost = value; }
     }
 }
