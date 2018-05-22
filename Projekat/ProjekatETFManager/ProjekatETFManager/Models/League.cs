@@ -20,10 +20,19 @@ namespace ProjekatETFManager.Models
 
         //  zasad vraca samo string koji ce biti formatiran da izgleda kao tabela
         //  kasnije cemo mijenjati ovo je samo za potrebe testiranja
-        public string tableOverview() { } 
+        public string tableOverview() {} 
 
         //  vraca top n uredjenih parova (Igrac, broj golova)
-        public List<Tuple<Igrac,int>> topScorers(int n) { }
+        public List<Tuple<Igrac,int>> topScorers(int n) {
+            List<Tuple<Igrac, int>> povratna = new List<Tuple<Igrac, int>>();
+            povratna = Scorers;
+            povratna.Sort((x,y) =>
+            {
+                int result = x.Item2 > y.Item2 ? 1 : 0;
+                return result;
+            });
+            return povratna.Take(n).ToList();
+        }
 
         //  potreban dogovor kako cemo implementirati simulacije i sta ce sve uzimati u obzir
         // za pocetak mozemo samo gledati ocjene igraca i preko toga odrediti koja je bolja ekipa
