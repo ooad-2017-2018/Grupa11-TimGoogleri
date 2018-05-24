@@ -8,10 +8,10 @@ namespace ProjekatETFManager.Models
 {
     public class Igrac
     {
-        private int playerID { get; set; }
-        private string name { get; set; }
-        private string lastName { get; set; }
-        private bool prefferedFoot { get; set; } //true se tumaci kao desna, false kao lijeva
+        private int playerID;
+        private string name;
+        private string lastName;
+        private bool prefferedFoot;//true se tumaci kao desna, false kao lijeva
         private int goalkeeping;
         private int defending;
         private int playmaking;
@@ -20,6 +20,24 @@ namespace ProjekatETFManager.Models
         private int scoring;
         private int setPieces;
         private int cost;
+
+        //  konstruktor sa svim parametrima
+        //  baca izuzetak u slucaju da setter baci izuzetak
+        public Igrac(int ID, string name, string lastName, bool prefferedFoot, int goalkeeping, int defending, int playmaking, int winger, int passing, int scoring, int setPieces, int cost)
+        {
+            this.PlayerID = ID;
+            this.name = name;
+            this.LastName = lastName;
+            this.PrefferedFoot = prefferedFoot;
+            this.Goalkeeping = Goalkeeping;
+            this.Defending = defending;
+            this.Playmaking = playmaking;
+            this.Winger = winger;
+            this.Passing = passing;
+            this.Scoring = scoring;
+            this.SetPieces = setPieces;
+            this.Cost = cost;
+        }
         public int Goalkeeping
         {
             get
@@ -106,5 +124,9 @@ namespace ProjekatETFManager.Models
         }
 
         public int Cost { get => cost; set => cost = value; }
+        public int PlayerID { get => playerID; set => playerID = value; }
+        public string Name { get => name; set => name = value; }
+        public string LastName { get => lastName; set => lastName = value; }
+        public bool PrefferedFoot { get => prefferedFoot; set => prefferedFoot = value; }
     }
 }

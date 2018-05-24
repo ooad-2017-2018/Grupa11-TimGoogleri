@@ -8,15 +8,18 @@ namespace ProjekatETFManager.Models
 {
     public class Korisnik : Osoba
     {
-        private String email { get; set; }
-        private Boolean adminPrivileges { get; set; }
+        private String email;
+        private Boolean adminPrivileges;
 
         public Korisnik(string username, string password, string email, bool admin)
         {
             this.Username = username;
             this.Password = password;
-            this.email = email;
-            this.adminPrivileges = admin;
+            this.Email = email;
+            this.AdminPrivileges = admin;
         }
+
+        public string Email { get => email; set => email = value; }
+        public bool AdminPrivileges { get => adminPrivileges; set => adminPrivileges = value; }
     }
 }

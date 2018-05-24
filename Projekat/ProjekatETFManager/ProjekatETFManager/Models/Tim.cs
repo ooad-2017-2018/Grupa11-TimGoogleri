@@ -25,6 +25,17 @@ namespace ProjekatETFManager.Models
         public List<Igrac> Squad { get => squad; set => squad = value; }
         public bool SetToDelete { get => setToDelete; set => setToDelete = value; }
 
+        public Tim(int teamID, int ownerID, string teamName, int leagueID)
+        {
+            this.SetToDelete = false;
+            this.TeamID = teamID;
+            this.OwnerID = ownerID;
+            this.LeagueID = leagueID;
+            Formation = new Formation();
+            squad = new List<Igrac>();
+            TransferBudget = 25000000;
+            //  stavio 25 mil za pocetak skontat cemo nesto drugo
+        }
         public bool transferBuy(Igrac player)
         {
             if (squad.Contains(player) || player.Cost > transferBudget || squad.Count > 25) return false;
@@ -40,7 +51,6 @@ namespace ProjekatETFManager.Models
             TransferBudget += player.Cost;
             return true;
         }
-
         public void DeleteTeam()
         {
             SetToDelete = true;
