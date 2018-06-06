@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="ProjekatETFManager.pocetniScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatETFManager.User_Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer>
+            <Grid Name="BackgroundGrid" MinWidth="600" MinHeight="500">
+
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Assets/pocetniScreen.jpg" Stretch="UniformToFill"/>
+                </Grid.Background>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="1.5*"/>
+                </Grid.RowDefinitions>
+
+                <Image Source="/Assets/logo.png" Grid.Column="1" Margin="30,30,30,30"/>
+
+                <StackPanel Grid.Row="1" Grid.Column="0" Name="panelMenuLeft" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,10,10,10">
+                    <Button Name="bKreiranjeTima" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="KREIRANJE TIMA" FontSize="18"/>
+                    <Button Name="bPostavkaTaktike" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="POSTAVKA TAKTIKE" FontSize="18"/>
+                    <Button Name="bTransferi" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="TRANSFERI" FontSize="18"/>
+                    <Button Name="bPridruzivanjeLige" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="PRIDRUŽIVANJE/KREIRANJE LIGE" FontSize="18"/>
+                    <Button Name="bPregledLige" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="PREGLED LIGE" FontSize="18"/>
+                    <Button Name="bMecevi" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="MEČEVI" FontSize="18"/>
+
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Grid.Column="2" Name="panelMenuRight" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,10,10,10">
+                    <Button Name="bPodrska" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="KREIRANJE TIMA" FontSize="18"/>
+                    <Button Name="bBrisanjeTima" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="POSTAVKA TAKTIKE" FontSize="18"/>
+                    <Button Name="bBrisanjeRacuna" Width="300" Height="50" Margin="0, 20, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Background="WhiteSmoke" Content="TRANSFERI" FontSize="18"/>
+                </StackPanel>
+
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Page>

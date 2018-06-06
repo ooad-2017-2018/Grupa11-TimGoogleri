@@ -8,48 +8,48 @@
     mc:Ignorable="d">
 
     <ScrollViewer>
-    <Grid Name="BackgroundGrid" MinWidth="600" MinHeight="500">
+        <Grid Name="BackgroundGrid" MinWidth="600" MinHeight="500">
 
-        <Grid.Background>
-            <ImageBrush ImageSource="/Assets/splash.jpg" Stretch="UniformToFill"/>
-        </Grid.Background>
+            <Grid.Background>
+                <ImageBrush ImageSource="/Assets/splash.jpg" Stretch="UniformToFill"/>
+            </Grid.Background>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Width="1.5*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="1.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*"></RowDefinition>
-            <RowDefinition Height="1.5*"/>
-            <RowDefinition Height="1.5*"></RowDefinition>
-        </Grid.RowDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="1.5*"></RowDefinition>
+            </Grid.RowDefinitions>
 
             <Image Source="/Assets/logo.png" Grid.ColumnSpan="1" Margin="30,30,30,30"/>
 
             <StackPanel Grid.Row="1" Grid.Column="0" Name="LoginPanel" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,10,10,10">
-                <TextBlock Name="LOGIN" HorizontalAlignment="Center" Text="LOG IN" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="24" Foreground="White"/>
+                <TextBlock HorizontalAlignment="Center" Text="LOG IN" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="24" Foreground="White"/>
 
-                <local:Username Name="UsernameLoginUC" MaxWidth="200" Margin="0,10,0,0"></local:Username>
+                <local:Username Name="ucUsernameLogin" MaxWidth="200" Margin="0,10,0,0"></local:Username>
 
-                <local:Password Name="PasswordLoginUC" MaxWidth="200" Margin="0,10,0,0"></local:Password>
+                <local:Password Name="usPasswordLogin" MaxWidth="200" Margin="0,10,0,0"></local:Password>
 
-                <Button Name="LogIn" Width="200" Height="30" Margin="0, 10, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Background="OrangeRed" Content="Log in" FontSize="12"/>
+                <local:LoginButton Name="usLogin" MaxWidth="200" Margin="0,10,0,0"></local:LoginButton>
             </StackPanel>
 
             <StackPanel Grid.Row="2" Grid.Column="0" Name="RegistracijaPanel" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,10,10,10">
-                
-                <TextBlock Name="NemateRcun" HorizontalAlignment="Center" Text="Nemate račun? Registrujte se." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="12" Foreground="White"/>
 
-                <local:Email Name="EmailRegistracijaUC" MaxWidth="200" Margin="0,10,0,0"></local:Email>
+                <TextBlock HorizontalAlignment="Center" Text="Nemate račun? Registrujte se." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontWeight="Bold" FontSize="12" Foreground="White"/>
 
-                <local:Username Name="UsernameRegistracijaUC" MaxWidth="200" Margin="0,10,0,0"></local:Username>
+                <local:Email Name="usEmail" MaxWidth="200" Margin="0,10,0,0"></local:Email>
 
-                <local:Password Name="PasswordRegistracijaUC" MaxWidth="200" Margin="0,10,0,0"></local:Password>
+                <local:Username Name="ucUsernameRegistracija" MaxWidth="200" Margin="0,10,0,0"></local:Username>
 
-                <local:RegistracijaButton Name="RegisterButtonUC" Margin="0,10,0,0" ></local:RegistracijaButton>
+                <local:Password Name="ucPasswordRegistracija" MaxWidth="200" Margin="0,10,0,0"></local:Password>
+
+                <local:RegistracijaButton Name="ucRegistracija" Margin="0,10,0,0" ></local:RegistracijaButton>
 
             </StackPanel>
-    </Grid>
+        </Grid>
     </ScrollViewer>
 </Page>

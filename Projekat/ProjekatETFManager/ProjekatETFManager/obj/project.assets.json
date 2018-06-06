@@ -25569,24 +25569,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mustafa\\.nuget\\packages\\": {},
+    "C:\\Users\\nedim\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mustafa\\Desktop\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\ProjekatETFManager.csproj",
+      "projectUniqueName": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\ProjekatETFManager.csproj",
       "projectName": "ProjekatETFManager",
-      "projectPath": "C:\\Users\\mustafa\\Desktop\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\ProjekatETFManager.csproj",
-      "packagesPath": "C:\\Users\\mustafa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mustafa\\Desktop\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\obj\\",
+      "projectPath": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\ProjekatETFManager.csproj",
+      "packagesPath": "C:\\Users\\nedim\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\nedim\\Google Drive\\ETF\\IV semestar\\Objektno orijentisana analiza i dizajn\\Projekat\\Grupa11-TimGoogleri\\Projekat\\ProjekatETFManager\\ProjekatETFManager\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nedim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

@@ -14,7 +14,7 @@
             <ColumnDefinition Width="2*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Column="0" VerticalAlignment="Center" Text="Username:" Foreground="White" FontSize="12"></TextBlock>
+        <TextBlock Name="tbUsername" Grid.Column="0" VerticalAlignment="Center" Text="Username:" Foreground="White" FontSize="12"></TextBlock>
         <TextBox Grid.Column="1" Background="White"></TextBox>
     </Grid>
 </UserControl>
