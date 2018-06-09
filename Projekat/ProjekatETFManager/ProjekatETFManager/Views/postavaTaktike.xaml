@@ -1,0 +1,179 @@
+﻿<Page
+    x:Class="ProjekatETFManager.postavaTaktike"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatETFManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="DarkSlateGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.ColumnSpan="3">
+            <Rectangle Height="100" Fill="Green" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+            <TextBlock Text="POSTAVA TAKTIKE" Margin="10" FontSize="48" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+
+        <StackPanel Name="stackPanel1" Grid.ColumnSpan="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="PRVIH 11" Foreground="WhiteSmoke" FontSize="36" Margin="50,0,0,0"></TextBlock>
+            
+            <Grid Height="Auto" Width="Auto">
+                <Image Source="/Assets/teren.png" Margin="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="Uniform"></Image>
+                <ComboBox x:Name="cb1" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="65,270,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb2" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="750,350,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb3" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="750,270,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb4" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="750,190,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb5" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="450,430,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb6" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="450,350,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb7" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="450,270,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb8" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="450,190,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb9" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="450,110,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb10" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="220,270,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb11" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="220,350,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb12" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="220,430,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb13" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="220,190,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb14" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="220,110,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+            </Grid>
+
+
+        </StackPanel>
+
+        <StackPanel Grid.ColumnSpan="2" Grid.Row="2">
+            <TextBlock Text="REZERVNI IGRAČI" Foreground="WhiteSmoke" Margin="50,0,0,0" FontSize="36"></TextBlock>
+            <StackPanel Grid.ColumnSpan="2" Grid.Row="2" Orientation="Horizontal">
+                <ComboBox x:Name="cb15" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="50,50,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb16" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="20,50,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb17" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="20,50,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb18" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="20,50,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb19" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="20,50,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb20" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="20,50,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+                <ComboBox x:Name="cb21" SelectionChanged="ComboBox_SelectionChanged" Width="100" Margin="20,50,0,0">
+                    <x:String>Player 1</x:String>
+                    <x:String>Player 2</x:String>
+                    <x:String>Player 3</x:String>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2" Margin="0,150,0,0">
+            <TextBlock Text="FORMACIJA" Width="auto" Foreground="WhiteSmoke" FontSize="18" VerticalAlignment="Center" TextAlignment="Center"></TextBlock>
+            <ComboBox x:Name="cbFormacija" SelectionChanged="ComboBox_SelectionChanged" Width="200" Margin="150,10,0,0" VerticalAlignment="Center">
+                <x:String>4-3-3</x:String>
+                <x:String>4-4-2</x:String>
+                <x:String>4-5-1</x:String>
+            </ComboBox>
+            <TextBlock Text="STIL IGRE" Width="auto" Foreground="WhiteSmoke" FontSize="18" VerticalAlignment="Center" Margin="0,20,0,0" TextAlignment="Center"></TextBlock>
+                <ComboBox x:Name="cbStilIgre" SelectionChanged="ComboBox_SelectionChanged" Width="200" Margin="150,10,0,0" VerticalAlignment="Center">
+                    <x:String>4-3-3</x:String>
+                    <x:String>4-4-2</x:String>
+                    <x:String>4-5-1</x:String>
+                </ComboBox>
+            <TextBlock Text="VRSTA DODAVANJA" Width="auto" Foreground="WhiteSmoke" FontSize="18" VerticalAlignment="Center" Margin="0,20,0,0" TextAlignment="Center"></TextBlock>
+            <ComboBox x:Name="cbVrstaDodavanja" SelectionChanged="ComboBox_SelectionChanged" Width="200" Margin="150,10,0,0" VerticalAlignment="Center">
+                <x:String>4-3-3</x:String>
+                <x:String>4-4-2</x:String>
+                <x:String>4-5-1</x:String>
+            </ComboBox>
+            <TextBlock Text="VRSTA DODAVANJA" Width="auto" Foreground="WhiteSmoke" FontSize="18" VerticalAlignment="Center" Margin="0,20,0,0" TextAlignment="Center"></TextBlock>
+            <ComboBox x:Name="cbSpecijalneTaktike" SelectionChanged="ComboBox_SelectionChanged" Width="200" Margin="150,10,0,0" VerticalAlignment="Center">
+                <x:String>4-3-3</x:String>
+                <x:String>4-4-2</x:String>
+                <x:String>4-5-1</x:String>
+            </ComboBox>
+
+        </StackPanel>
+
+
+    </Grid>
+</Page>
